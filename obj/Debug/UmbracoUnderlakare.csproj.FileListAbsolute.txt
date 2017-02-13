@@ -146,3 +146,8 @@ c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\Umb
 c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\StructureMap.Net4.pdb
 c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\StructureMap.Web.pdb
 c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\StructureMap.Web.xml
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\Dialogue.Logic.dll
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\EntityFramework.dll
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\Skybrud.Social.dll
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\EFCache.dll
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\EntityFramework.xml

@@ -76,6 +76,10 @@
       <HintPath>..\packages\xmlrpcnet.2.5.0\lib\net20\CookComputing.XmlRpcV2.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Dialogue.Logic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\UnderlakareCmsDialogue\UnderlakareCmsDialogue\bin\Dialogue.Logic.dll</HintPath>
+    </Reference>
     <Reference Include="Examine, Version=0.1.80.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Examine.0.1.80\lib\net45\Examine.dll</HintPath>
       <Private>True</Private>
@@ -431,18 +435,53 @@
     <Compile Include="App_Start\UmbracoCustomOwinStartup.cs" />
     <Compile Include="App_Start\UmbracoStandardOwinStartup.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Business\Entities\ApiResponse.cs" />
+    <Compile Include="Business\Entities\Category.cs" />
+    <Compile Include="Business\Entities\Interfaces\ICategory.cs" />
+    <Compile Include="Business\Entities\Interfaces\IMember.cs" />
+    <Compile Include="Business\Entities\Interfaces\IPaging.cs" />
+    <Compile Include="Business\Entities\Interfaces\IPost.cs" />
+    <Compile Include="Business\Entities\Interfaces\IPostPaging.cs" />
+    <Compile Include="Business\Entities\Interfaces\ITopic.cs" />
+    <Compile Include="Business\Entities\Interfaces\ITopicPaging.cs" />
+    <Compile Include="Business\Entities\Member.cs" />
+    <Compile Include="Business\Entities\Paging.cs" />
+    <Compile Include="Business\Entities\Post.cs" />
+    <Compile Include="Business\Entities\PostPaging.cs" />
+    <Compile Include="Business\Entities\Topic.cs" />
+    <Compile Include="Business\Entities\TopicPaging.cs" />
+    <Compile Include="Business\Helpers\PagingHelper.cs" />
+    <Compile Include="Business\Services\CategoryService.cs" />
+    <Compile Include="Business\Services\Interfaces\ICategorysService.cs" />
+    <Compile Include="Business\Services\Interfaces\IMembersService.cs" />
+    <Compile Include="Business\Services\Interfaces\IPostsService.cs" />
+    <Compile Include="Business\Services\Interfaces\ITopicsService.cs" />
+    <Compile Include="Business\Services\MemberService.cs" />
+    <Compile Include="Business\Services\PostService.cs" />
+    <Compile Include="Business\Services\TopicService.cs" />
     <Compile Include="ControllerHelper.cs" />
+    <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\ForumTopicController.cs" />
+    <Compile Include="Controllers\MembersController.cs" />
+    <Compile Include="Controllers\PageController.cs" />
+    <Compile Include="Controllers\PostController.cs" />
     <Compile Include="DependencyResolution\ControllerConvention.cs" />
     <Compile Include="DependencyResolution\DefaultRegistry.cs" />
     <Compile Include="DependencyResolution\IoC.cs" />
     <Compile Include="DependencyResolution\StructureMapDependencyScope.cs" />
     <Compile Include="DependencyResolution\StructureMapScopeModule.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UmbracoWebApiHttpControllerActivator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Business\Registries\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

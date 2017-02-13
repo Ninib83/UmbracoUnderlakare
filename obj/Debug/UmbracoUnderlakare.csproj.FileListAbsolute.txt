@@ -134,3 +134,15 @@ c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\Umb
 c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\WebMatrix.WebData.dll
 c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\WebMatrix.Data.xml
 c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\WebMatrix.WebData.xml
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\Microsoft.Practices.ServiceLocation.dll
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\StructureMap.dll
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\StructureMap.Net4.dll
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\StructureMap.Web.dll
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\WebActivatorEx.dll
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\Microsoft.Practices.ServiceLocation.pdb
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\Microsoft.Practices.ServiceLocation.xml
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\StructureMap.pdb
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\StructureMap.xml
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\StructureMap.Net4.pdb
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\StructureMap.Web.pdb
+c:\users\ninibozmen\documents\visual studio 2015\Projects\UmbracoUnderlakare\UmbracoUnderlakare\bin\StructureMap.Web.xml
